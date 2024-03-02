@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <title>Persona Fashion</title>
+    </head>
+    <body>
+        <section id="home" class="home"> 
+          <nav>
+            <a href="index.html"> <img src="res/images/logo.png"> </a>
+            <div class="nav-links" id="nav-links">
+                <span class="material-symbols-outlined" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutUs">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contactUs">Contact</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">menu</span>
+          </nav>
+
+          <div class="home-text">
+            <h1> Persona Garments </h1>
+            <p> Welcome to Persona Garments, where craftsmanship meets convenience.  </p>
+            <a href="#home" class="home-btn"> Visit us to know more. </a>
+
+          </div>
+        </section>
+
+
+
+        <section id="aboutUs" class="about"> 
+           <h1> About us</h1>
+           <p> Welcome to Persona Garmenets, where excellence in craftsmanship meets a passion for fashion. Founded with a vision to redefine industry standards, We have got dedicated team of skilled artisans, we specialize in creating high-quality clothing that blends style, comfort, and sustainability. At Persona Garments, we believe in the power of collaboration, working closely with designers, retailers, and fashion enthusiasts to bring their visions to life. Beyond just creating garments, we strive to build meaningful relationships with our clients, ensuring that every interaction is met with professionalism, integrity, and a shared passion for excellence. Join us on our journey as we continue to weave together threads of creativity and craftsmanship, shaping the future of fashion, one stitch at a time.</br>
+        </p>
+
+           <div class="row"> 
+            <div class="about-col">
+                <img src="res/images/juki.jpg" >
+                <div class="layer"> 
+                    <h3> Stiching </h3>
+                </div>
+            </div>
+            <div class="about-col">
+                <img src="res/images/factory_inside.jpg" >
+                <div class="layer"> 
+                    <h3>Quality</h3>
+                </div>
+            </div>
+            <div class="about-col">
+                <!-- <img src="res/images/pexels-tembela-bohle-1884584.jpg" > -->
+                <img src="res/images/wardrobe.jpg" > 
+                <div class="layer"> 
+                    <h3>Latest Designs</h3>
+                </div>
+            </div>
+           </div>
+        </section>
+
+        <section id="services" class="services">
+            <h1>Services</h1>
+            <p> </p>
+            <div class="row">
+                <div class="service-col">
+                    <h3> Our brand</h3>
+                    <p> We have our own brand registered under as Loomify.</p>
+                </div>
+
+                <div class="service-col">
+                    <h3>FOB Orders</h3>
+                    <p> We can do this from buying agencies and direct buyers </p>
+                </div>
+
+                <div class="service-col">
+                    <h3>Bulk order of our brand</h3>
+                    <p> We can provide you the orders. </p>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+
+
+     <section id="contactUs" class="contactUs">
+        <h1>Contact us</h1>
+        <div class="row">
+            
+            <div class="contactUS-col">
+                <a class="contact-href" href="tel:+919633483049">
+                <div>
+                <span class="material-symbols-outlined contactMI">call </span>
+                <h3>Phone</h3>
+                <p> +91 9633-483-049 </p>
+            </div>
+        </div>
+            </a>
+            
+            
+            <div class="contactUS-col">
+                <a class="contact-href"  href="mailto:support@personagarments.co.in">
+                <div>
+                <span class="material-symbols-outlined contactMI">mail</span>
+                <h3>Email</h3>
+                <p> support@personagarments.co.in </p>
+            </div>
+            </div>
+            </a>
+
+            <div class="contactUS-col">
+                <a  class="contact-href" href="https://api.whatsapp.com/send?phone=919633483049">
+                <div>   
+                <i class="fa fa-whatsapp" style="font-size:24px"></i>
+                <h3>Whatsapp</h3>
+                <p> +91 9633-483-049 </p>
+            </div>
+            </div>
+            </a>  
+        </div>
+
+            <div class="contactUS-col">
+                <span class="material-symbols-outlined contactMI">home</span>
+                <h3>Addresss</h3>
+                <p> 
+                    Persona Garments  <br> Chulliyalapuraya , Olakara (PO) <br> 
+                    Peruvallur , Malappuram <br> 
+                    Kerala, India <br> 
+                    PIN : 676306
+                </p>
+            </div>
+        
+     </section>
+
+
+
+
+        <script>
+            var navLinks=document.getElementById("nav-links");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            
+           
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            </script>
+    </body>
+</html>
